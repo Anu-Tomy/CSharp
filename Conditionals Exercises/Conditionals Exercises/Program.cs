@@ -89,8 +89,7 @@ namespace Conditionals_Exercises
 
             Console.WriteLine("Enter the speed of this car");
             var speed = Convert.ToInt32(Console.ReadLine());
-
-
+            
             if (speed > limit)
             {
                 var demerit_points = (speed - limit) / 5;
