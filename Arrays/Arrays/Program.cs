@@ -12,6 +12,7 @@ namespace Arrays
             Console.WriteLine(numbers[1]);  // 0    by default initialized to 0
             Console.WriteLine(numbers[2]);  // 0
 
+
             var flags = new bool[3];
             flags[0] = true;
 
